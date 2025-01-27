@@ -1,0 +1,17 @@
+task: blimp_eu
+dataset_path: json
+dataset_name: null
+dataset_kwargs: 
+  data_files: https://github.com/orai-nlp/bl2mp/blob/main/bl2mp.jsonl
+training_split: null
+validation_split: null
+test_split: train
+output_type: multiple_choice
+doc_to_text: ""
+doc_to_target: 0
+doc_to_choice: "{{[sentence_good,sentence_bad]}}"
+target_delimiter: ""
+metric_list:
+  - metric: acc
+metadata:
+  version: 1.0
