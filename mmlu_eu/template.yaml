@@ -3,7 +3,7 @@ dataset_path: orai-nlp/MMLU_HT_eu_sample
 dataset_name: eu
 training_split: null
 validation_split: null
-test_split: train
+test_split: test
 output_type: multiple_choice
 doc_to_text: "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nErantzuna:"
 doc_to_choice: ["A", "B", "C", "D"]
