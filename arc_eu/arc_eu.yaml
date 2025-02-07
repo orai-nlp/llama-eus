@@ -3,7 +3,7 @@ dataset_path: orai-nlp/ARC_HT_eu_sample
 dataset_name: eu
 training_split: null
 validation_split: null
-test_split: train
+test_split: test
 output_type: multiple_choice
 doc_to_text: "Galdera: {{question}}\nErantzuna:"
 doc_to_target: "{{choices.label.index(answerKey)}}"
